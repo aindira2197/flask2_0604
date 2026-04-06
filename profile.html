@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil</title>
+    <style>
+        .card {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Foydalanuvchi profili</h2>
+
+    <p><b>Ism:</b> {{ user.name }}</p>
+    <p><b>Yosh:</b> {{ user.age }}</p>
+    <p><b>Shahar:</b> {{ user.city }}</p>
+    <p><b>Kasb:</b> {{ user.job }}</p>
+    <p><b>Email:</b> {{ user.email }}</p>
+</div>
+
+</body>
+</html>
